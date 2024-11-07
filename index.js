@@ -9,7 +9,7 @@ const fs=require("fs")
 inquirer.prompt([{
     type:"input",
     message:"Enter 3 or less characters text:",
-    validate:(text)=>text.length <=3 ? true:false,
+    validate:(text)=>text.length <=3 || 'Text must have 3 characters.',
     name:"text"  
 },{
     type:"input",
@@ -35,13 +35,17 @@ inquirer.prompt([{
     if(res.shape==="circle"){
        const circle=new Circle(res.text,res.textColor,res.shapeColor)
         content=circle.render()
-        filename="./examples/circle.svg"
+        filename="./examples/logo.svg"
     }
     else if(res.shape==="triangle"){
-
+        const triangle = new Triangle(res.text, res.textColor, res.shapeColor)
+        content = triangle.render()
+        filename = "./examples/logo.svg"
     }
     else if(res.shape==="square"){
-        
+        const square = new Square(res.text, res.textColor, res.shapeColor)
+        content = square.render()
+        filename = "./examples/logo.svg"
     }
 
     fs.writeFile(filename,content,(err)=>err ?console.log(err): console.log("success") )
