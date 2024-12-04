@@ -70,7 +70,7 @@ Here’s an example of a generated logo:
 
 ## Repo
 
-[GitHub Repo](https://github.com/briansotolago/README-Generator)
+[GitHub Repo](https://github.com/briansotolago/Simple-Logo-Maker)
 
 ## License
 
