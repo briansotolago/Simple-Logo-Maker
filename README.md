@@ -56,7 +56,7 @@ node index.js
 
 This video demonstrates the functionality of the SVG Logo Maker, including passing tests, user input, and opening the generated logo in a browser.
 
-[![video](https://i.sstatic.net/Vp2cE.png)](https://drive.google.com/file/d/1LQ_EsPnv6r6_eNJ10OgIhzGERpJhs6WF/view)
+[![video](https://drive.google.com/file/d/1LQ_EsPnv6r6_eNJ10OgIhzGERpJhs6WF/view?usp=sharing)
 
 ## Examples
 
